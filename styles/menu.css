@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+#menu{
+    width: 80%;
+    border: 2px solid black;
+    /* box-shadow: -4px 2px 2px black, 4px -2px 2px black; */
+    background-color: white;
+    font-size: 1em;
+    text-align: center;
+    display: flex;
+}
+#menu h2{
+    margin-top: 10px;
+}
+.starters{
+    border: 2px solid black;
+    height: 100px;
+    width: 25%;
+}
+.starterPrice{
+    border: 2px solid black;
+    height: 100px;
+    width: 25%;
+}
+.starterImg{
+    width: 25%;
+    float: right;
+}
