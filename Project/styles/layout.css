@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: rgb(154, 78, 78);
+}
+nav ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 0%, 0.8);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+nav a:hover{
+    color: yellow;
+    background-color: hsl(292, 100%, 50%);
+    transform: scale(1.1);
+}
+#active{
+    text-decoration: 3px dotted underline yellow;
+}
+header{
+    background-color: hsl(0, 0%, 0%, 0.8);
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+}
+main{
+    margin: 10px;
+}
+footer{
+    display: block;
+    background-color: hsl(0, 0%, 80%);
+    text-align: center;
+    padding: 1px;
+}

@@ -1,0 +1,58 @@
+main{
+    display: flex;
+}
+.container{
+    width: 30%;
+    margin-top: 10px;
+}
+#address{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    box-shadow: -4px 2px 2px black, 4px -2px 2px black;
+    font-size: 1.3em;
+    text-align: center;
+}
+#address h2{
+    font-size: 2em;
+    margin-top: 10px;
+}
+#address:hover{
+    transform: translate(25px, 10px) scale(1.1)
+}
+#hours{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: hsl(52, 73%, 63%);
+    border: 1px solid black;
+    box-shadow: -4px 2px 2px black, 4px -2px 2px black;
+    font-size: 1em;
+}
+#hours h2{
+    font-size: 2.1em;
+    text-align: center;
+    margin-top: 10px;
+}
+#hours:hover{
+    transform: translate(25px, -10px) scale(1.1)
+}
+#hours table{
+    font-size: 1.2em;
+}
+#hours table th{
+    text-align: left;
+}
+#hours table td{
+    text-align: right;
+}
+.map{
+    margin-left: 150px;
+}
+iframe{
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 50%;
+    transform: translate(50px, 50px) scale(1.2);
+}
