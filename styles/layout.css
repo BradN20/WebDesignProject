@@ -22,7 +22,7 @@ nav a{
 }
 nav a:hover{
     color: yellow;
-    background-color: hsl(292, 100%, 50%);
+    background-color: hsl(0, 0%, 30%, 1);
     transform: scale(1.1);
 }
 #active{
